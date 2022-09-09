@@ -7,8 +7,6 @@
 
 /**
  * main - Entry point and print the required output for the peogram
- * ,
- * followed by a new line, to standard error.
  *
  * Return: Always 1.
  */

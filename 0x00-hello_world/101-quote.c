@@ -6,9 +6,9 @@
 #include <unistd.h>
 
 /**
- * main - Entry point and print the required output for the peogram
+ * main- entry point and print the required output for the peogram
  *
- * Return: Always 1.
+ * Return: the value of 1 always
  */
 int main(void)
 {

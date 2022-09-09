@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * To print a random number and state whether it is a positive, negative, or zero.
+ * main- entry point and print a random number and state whether it is a positive, negative, or zero.
  *
- * Reture: Always 0
+ * Return: the value of 0 always
  */
 int main(void)
 {

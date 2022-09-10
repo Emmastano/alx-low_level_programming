@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point and print thr alphabet in lowercase.
+ * main - entry point & print the alphabet in lowercase, except for q & e.
  *
  * Return: the value of 0 always.
  */
@@ -10,7 +10,10 @@ int main(void)
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	{
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
+	}
 
 	putchar('\n');
 

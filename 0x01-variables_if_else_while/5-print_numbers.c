@@ -12,7 +12,7 @@ int main(void)
 	int num;
 
 	for (num = 0; num < 10; num++)
-		printf("%d is num\n", num);
+		printf("%d < 10\n", num);
 
 	return (0);
 

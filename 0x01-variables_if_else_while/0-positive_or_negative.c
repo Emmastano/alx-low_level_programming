@@ -1,25 +1,31 @@
+/*
+ *  * File: 0-positive_or_negative.c
+ *   * Auth: Brennan D Baraban
+ *    */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
- * main- entry point and print a random number and state whether it is a positive, negative, and zero
- *
- * Return: the value of 0 always
- */
+ *  * main - Prints a random number and states whether
+ *   *        it is positive, negative, or zero.
+ *    *
+ *     * Return: Always 0.
+ *     */
 int main(void)
 {
 		int n;
 
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
+
 					if (n > 0)
-						printf("%d is positive\n", n);
-					if (n == 0)
-						printf("%d is zero\n", n);
-				        if (n < 0)
-					{
-						printf("%d is negative\n", n);
-					}
-					return (0);
+								printf("%d is positive\n", n);
+						else if (n < 0)
+									printf("%d is negative\n", n);
+							else
+										printf("%d is zero\n", n);
+
+								return (0);
 }

@@ -5,7 +5,7 @@
 /**
  * main- entry point and print random number
  *
- * Return: always 0
+ * Return: the value of 0 always
  */
 int main(void)
 {

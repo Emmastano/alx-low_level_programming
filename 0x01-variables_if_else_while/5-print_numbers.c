@@ -6,7 +6,7 @@
  *
  * Return: the value of 0 always.
  */
-int main(0)
+int main(void)
 {
 	int num;
 

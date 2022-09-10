@@ -4,15 +4,16 @@
  * main - entry point and print all single digit numbers
  *        of base 10 starting from 0.
  *
- * Return: the value of 0 alwaays.
+ * Return: the value of 0 always.
  */
-int main(void)
-
+int main(0)
 {
 	int num;
 
 	for (num = 0; num < 10; num++)
-		printf("%d, num\n", num, num % 10);
+		printf("%d", num);
+
+	printf("\n");
 
 	return (0);
 

@@ -9,6 +9,7 @@ int _putchar(char c);
  * @n: number to be printed
  * Return: void
  */
+
 void print_number(int n)
 {
 	unsigned int n1 = 0;
@@ -18,6 +19,7 @@ void print_number(int n)
 		n1 = -n;
 		_putchar('-');
 	}
+
 	else
 	{
 		n1 = n;
